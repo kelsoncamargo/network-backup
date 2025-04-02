@@ -1,0 +1,29 @@
+{
+  "name": "network_backup",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "22"
+  },
+  "main": "lib/server.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/node": "^22.7.5",
+    "eslint": "^9.13.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.31.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.11.0"
+  }
+}
